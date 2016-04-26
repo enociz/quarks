@@ -5,23 +5,23 @@ title: Home
 
 <h1 class="lh-heading ttu tracked measure f2 pt6 mono"> THIS SITE IS UNDER CONSTRUCTION FOR THE MAY 1ST REBOOT. PLS CHECK BACK SOON </h1>
 
-<section style="background-image: url(/img/hero.png); background-position: bottom center;" class="h-full dt bg-cv w-100">
-<div  class="dtc v-mid bg-black-20 white-80 phm">
-  <h1 class="f3 tc ttu tracked mono black"> my name is</h1>
+<section style="background-image: url(/img/hero.png); background-position: bottom center;" class="h-full dt bg-cv w-100 mb4">
+<div  class="dtc v-mid bg-black-20 phm">
+  <h1 class="f3 tc ttu tracked mono white"> my name is</h1>
   <h1 class="f1 b tc ttu tracked mono gold"> Jeff! </h1>
 </div>
 </section>
 
-<section>
+<section class="mb4">
 <div class="lh-body center measure">
   <p class=""> I'm Jeff Free ... </p>
 </div>
 </section>
 
-<section id="writing" class="measure center">
+<section id="writing" class="measure center mb4">
   <h2 class="f2 ttu tracked lh-heading black"> Writing </h2>
   <ul class="mono">
-  {% for post in site.posts %}
+  {% for post in posts %}
     <li class="gold"><a class="gold link underline" href="/{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
   </ul>
