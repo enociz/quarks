@@ -1,10 +1,6 @@
 name: Jeff Free
 description: The musings, ventures, and zines of Jeff Free — a full stack designer from Melbourne.
 
-author: @notjefffree
-
-category_dir: /
-
 url: http://xn--dwg.cf/
 
 markdown: kramdown
