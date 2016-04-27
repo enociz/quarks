@@ -21,8 +21,12 @@ title: Home
 <section id="writing" class="measure center mb4">
   <h2 class="f2 ttu tracked lh-heading black"> Writing </h2>
   <ul class="mono">
-  {% for post in posts %}
-    <li class="gold"><a class="gold link underline" href="/{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
+  {% for post in site.posts %}	
+  <li class="black">
+    <h3 class="gold"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong></small></p>
+  </li>
+  {% endfor %}	
+
   </ul>
 </section>
