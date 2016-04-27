@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<section class="h-full bg-white mb4">
+<section style="background-image: url(https://images.unsplash.com/photo-1449247709967-d4461a6a6103?crop=entropy&dpr=2&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1025g); background-position: bottom center;" class="h-full dt bg-cv w-100">
 <div  class="dtc v-mid phm">
   <h1 class="f3 tc ttu tracked mono black"> my name is</h1>
   <h1 class="f1 b tc ttu tracked mono gold"> Jeff! </h1>
@@ -21,7 +21,7 @@ title: Home
   <ul class="mono">
   {% for post in site.posts %}	
   <li class="black">
-    <h3 class="gold"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <h3 class="f3 f"><a class="gold" href="{{ post.url }}">{{ post.title }}</a></h3>
     <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong></small></p>
   </li>
   {% endfor %}	
