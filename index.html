@@ -19,9 +19,9 @@ title: Home
 <section id="portfolio" class="measure center mv4">
   <h2 class="f2 ttu tracked lh-heading black"> Portfolio </h2>
   <ul class="mono">
-  {% for post in site.portfolio %}	
+  {% for post in site.categories.portfolio %}	
   <li class="black">
-    <h3 class="f3"><a class="gold" href="{{ post.url }}">{{ post.title }}</a></h3>
+    <h3 class="f3"><a class="gold" href="{{ post.link }}">{{ post.title }}</a></h3>
     <p><small><strong>{{ post.category }}</strong></small></p>
   </li>
   {% endfor %}	
@@ -31,7 +31,7 @@ title: Home
 <section id="writing" class="measure center mv4">
   <h2 class="f2 ttu tracked lh-heading black"> Writing </h2>
   <ul class="mono">
-  {% for post in site.posts %}	
+  {% for post in site.categories.writing %}	
   <li class="black">
     <h3 class="f3"><a class="gold" href="{{ post.url }}">{{ post.title }}</a></h3>
     <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong></small></p>
