@@ -4,8 +4,8 @@ url: /
 markdown: kramdown
 permalink: pretty
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
-author: Jeff Free (@notjefffree)
-owner: Jeff Free (@notjefffree)
+author: Enoch Appathurai (@enociz)
+owner: Enoch Appathurai (@enociz)
 font-location: https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700
 global-css-location: <!--nothing here-->
 site-logo-location: /img/logo.png
